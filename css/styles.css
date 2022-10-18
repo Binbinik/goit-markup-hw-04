@@ -233,8 +233,12 @@ html {
   margin-right: 30px;
 }
 .benefits-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
   margin-bottom: 30px;
-  padding: 25px 100px;
+  border-radius: 4px;
   background-color: var(--command-bg-colour);
 }
 /* .benefits-block::before {
@@ -515,6 +519,7 @@ html {
 .invitation-title {
   margin-bottom: 20px;
   color: var(--bg-white-colour);
+  font-size: 14px;
   line-height: 1.2;
 }
 .invitation-links {
